@@ -11,8 +11,10 @@ for(j=0; j<c; j++) {
 scanf("%d", &sensor1[i][j]);
 }
 printf("\nEnter elements of sensor2:\n");
-for(i = 0; i<r; i++) {
-for(j=0; j<c; j++) {
+for(i = 0; i<r; i++) 
+{
+for(j=0; j<c; j++) 
+{
 scanf("%d", &sensor2[i][j]);
 }
 }
