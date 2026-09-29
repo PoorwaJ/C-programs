@@ -16,8 +16,10 @@ for(j=0; j<c; j++) {
 scanf("%d", &sensor2[i][j]);
 }
 }
-for(i=0; i<r; i++) {
-for(j=0; j<c; j++) {
+for(i=0; i<r; i++)
+{
+for(j=0; j<c; j++) 
+{
 combination[i][j]= sensor1[i][j]+sensor2[i][j];
 }
 }
